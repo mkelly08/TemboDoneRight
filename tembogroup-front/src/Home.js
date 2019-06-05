@@ -9,7 +9,8 @@ import './index.css';
 const Styles = styled.div`
   .jumbotron {
     background-color: white;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
   }
 `;
 

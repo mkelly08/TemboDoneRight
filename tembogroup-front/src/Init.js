@@ -7,7 +7,7 @@ import imgBF3 from './img/butterfly3.png';
 import imgBF4 from './img/butterfly4.png';
 import imgBF5 from './img/butterfly5.png';
 import imgBF6 from './img/butterfly6.png';
-import imgRightServices from './img/WomanPlant.png';
+import imgRightServices from './img/womanplant_resized.png';
 import elephant from './img/elephant_forlandingpage.png'
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
@@ -26,8 +26,9 @@ const Styles = styled.div`
 `;
 
 export const Init = () => (
-    <Row fluid>
-      <Col sm className='my-auto'>
+    <Row className="justify-content-md-center pt-5 mt-5">
+      <Col md className='my-auto ml-lg-5'>
+        <Container>
         <ul className="homeMenu">
           <li className="liHomeMenu">
             <NavLink to="/home/service">
@@ -66,12 +67,13 @@ export const Init = () => (
             </NavLink>
           </li>
         </ul>
+        </Container>
       </Col>
       <Col className='d-none d-lg-block d-xl-block my-auto' md='auto'>
         <img src={imgLine} alt="imgLine"/> 
       </Col>
-      <Col sm='auto' fluid>
-        <img src={imgRightServices} className='img-fluid' fluid/>
+      <Col md className='text-center' fluid>
+        <img src={imgRightServices} className='img-fluid my-auto' fluid/>
       </Col>
     </Row>
   )
