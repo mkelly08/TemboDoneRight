@@ -1,6 +1,5 @@
 import React from 'react'
-import { Row, Col, Image, Container, Form, Button} from 'react-bootstrap';
-import imgLine from './img/dividerLineHor.png';
+import { Col, Container, Form, Button} from 'react-bootstrap';
 
 export const Contact = () => (
   <Container>

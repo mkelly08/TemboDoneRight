@@ -1,6 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
-import { Row, Col, Image, Container} from 'react-bootstrap'
+import { Row, Col, Image, Container } from 'react-bootstrap'
 
 import imgRight from './img/picture-not-available.jpg';
 import imgLine from './img/dividerLine.png';
@@ -12,9 +11,10 @@ import {
 
 export const Corporate = () => (
   <Row className='pt-5' fluid>
-    <Col sm className='my-auto' sm fluid>
+    <Col sm className='mt-md-5'>
+      <Container className='pl-md-5 pr-md-5'>
       <Row className="sectionTitle">
-        <img src={imgBF3} className="butterflyMenu" alt="imgBF1"/>
+        <Image src={imgBF3} className="butterflyMenu pt-1" alt="imgBF1"/>
         <span>Corporate Citizenship</span>
       </Row>
       <Row className="sectionContent">
@@ -32,12 +32,13 @@ export const Corporate = () => (
       <div align="center" className="sectionBack mb-5">
         <span className="textBack"><NavLink to="/home/organization">BACK</NavLink></span>/<span className="textBack"><NavLink to="/home/partners">NEXT</NavLink></span>
       </div>
+      </Container>
     </Col>
     <Col className='d-none d-lg-block d-xl-block my-auto' md='auto'>
-      <img src={imgLine} alt="imgLine"/> 
+      <Image src={imgLine} alt="imgLine"/> 
     </Col>
     <Col className='text-center' sm fluid>
-      <img src={imgRight} className='img-fluid my-auto' fluid/>
+      <Image src={imgRight} className='img-fluid my-auto' fluid/>
     </Col>
   </Row>
 )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Image, Container} from 'react-bootstrap'
+import { Row, Col, Container} from 'react-bootstrap'
 import imgLine from './img/dividerLine.png';
 import imgBF1 from './img/butterfly1.png';
 import imgBF2 from './img/butterfly2.png';
@@ -8,22 +8,10 @@ import imgBF4 from './img/butterfly4.png';
 import imgBF5 from './img/butterfly5.png';
 import imgBF6 from './img/butterfly6.png';
 import imgRightServices from './img/womanplant_resized.png';
-import elephant from './img/elephant_forlandingpage.png'
-
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import styled from 'styled-components';
 
 import {
   NavLink
 } from "react-router-dom";
-
-const Styles = styled.div`
-  .jumbotron {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-  }
-`;
 
 export const Init = () => (
     <Row className="justify-content-md-center pt-5 mt-5">
@@ -33,7 +21,7 @@ export const Init = () => (
           <li className="liHomeMenu">
             <NavLink to="/home/service">
               <img src={imgBF1} className="butterflyMenu" alt="imgBF1"/>
-              <span>Strategy Management</span>
+              <span>Strategy &amp; Management</span>
             </NavLink>
           </li>
           <li className="liHomeMenu">
@@ -73,7 +61,7 @@ export const Init = () => (
         <img src={imgLine} alt="imgLine"/> 
       </Col>
       <Col md className='text-center' fluid>
-        <img src={imgRightServices} className='img-fluid my-auto' fluid/>
+        <img src={imgRightServices} className='img-fluid my-auto' alt='elephant' fluid/>
       </Col>
     </Row>
   )

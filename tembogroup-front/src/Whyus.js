@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Image, Container} from 'react-bootstrap';
+import { Row, Container} from 'react-bootstrap';
 
 export const WhyUs = () => (
   <Container>
@@ -24,7 +24,7 @@ export const WhyUs = () => (
       </p>
     </Row>
     <Row className='justify-content-center mt-5 pb-5' fluid>
-    <iframe className='justify-content-center' width="1200" height="600" src="https://www.youtube.com/embed/5gQujyNDp98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe title="Last Days Film, Kathryn Bigelow" className='justify-content-center' width="1200" height="600" src="https://www.youtube.com/embed/5gQujyNDp98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Row>
   </Container>
 )

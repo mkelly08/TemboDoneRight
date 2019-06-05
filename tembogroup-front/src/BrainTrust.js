@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Image, Container} from 'react-bootstrap';
+import { Row, Container} from 'react-bootstrap';
 import imgLine from './img/dividerLineHor.png';
 
 export const BrainTrust = () => (

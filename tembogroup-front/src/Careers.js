@@ -1,6 +1,5 @@
 import React from 'react'
-import { Row, Col, Image, Container} from 'react-bootstrap';
-import imgLine from './img/dividerLineHor.png';
+import { Row, Container} from 'react-bootstrap';
 
 export const Careers = () => (
   <Container>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Home } from './Home';
 import { About } from './About';
 import { Init } from './Init';
 // import { Contact } from './Contact';
@@ -17,7 +16,6 @@ import { BrainTrust } from './BrainTrust'
 import { WhyUs } from './Whyus';
 import { Careers } from './Careers';
 import { Contact } from './Contact';
-import { Jumbotron } from './components/Jumbotron';
 
 class RealHome extends Component {
   render() {
