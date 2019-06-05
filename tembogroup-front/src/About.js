@@ -9,7 +9,8 @@ import {
 export const About = () => (
   <Container fluid>
   <Row className='pt-5' fluid>
-    <Col sm className='my-auto' fluid>
+  <Col sm className='mt-md-5'>
+      <Container className='pl-md-5 pr-md-5'>
       <Row className="sectionContent">
         The Tembo Group is a social impact advisory firm.
             <br/><br/>
@@ -19,6 +20,7 @@ export const About = () => (
             To learn more about our name,<NavLink to="/home/whyus">CLICK HERE.</NavLink>
             <br/><br/>
       </Row>
+      </Container>
     </Col>
     <Col className='d-none d-lg-block d-xl-block my-auto' md='auto'>
       <Image src={imgLine} alt="imgLine"/> 
